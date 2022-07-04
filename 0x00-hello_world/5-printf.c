@@ -1,5 +1,8 @@
-#!/bin/bash
-#include<stdio.h>
+#include <stdio.h>
+/**
+ *  main - function
+ *  Return: main function
+ */
 int main(void)
 {
 	printf("with proper grammar, but the outcome is a piece of art,\n");
