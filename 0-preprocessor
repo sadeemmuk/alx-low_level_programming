@@ -1,9 +1,0 @@
-#!/bin/bash
- #include <stdio.h>
-
-int main(void)
-{
-printf("$CFILE"\n);
-
-return0;
-}
