@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -S .masmxintel $CFILE
+gcc -S .100-intel $CFILE
