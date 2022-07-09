@@ -3,7 +3,7 @@
 /**
  * mul -> multiplaying 2 numbers
  * @a: interger paraml
- * 2b: integer param 2
+ * @b: integer param 2
  * Return: success and intiger
  */
 
