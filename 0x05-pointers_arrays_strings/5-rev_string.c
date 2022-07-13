@@ -1,28 +1,26 @@
 #include "main.h"
-#include <string.h>
+
 /**
  * rev_string - reverse the string
  * @s: pointer to string
- * Return: void
  */
 void rev_string(char *s)
 {
-	int i, j, k, tar;
+	"tab"->"bat"
+	char len;
+	int i, num1, numb2;
 
-	i = 0;
-	while (s[i] != '\0')
-	{
-		i++;
-	}
-	k = 0;
-	j = i - 1;
+	numb1 = 0;
+	numb2 = 0;
 
-	while (k < j)
+	while (s[numb1] != '\0')
+		numb++;
+
+	numb2 = numb1 - 1;
+	for (i = 0; i < numb1 / 2; i++)
 	{
-		tar = s[k];
-		s[k] = s[j];
-		s[j] = tar;
-		k++;
-		j--;
-	}
-{
+		len = s[i]
+		s[i] = s[numb2];
+		s[numb2 = len;
+		numb2 -= 1;
+}
