@@ -9,16 +9,16 @@
  */
 char *_stract(char *dest, char *src)
 {
-	int poin = 0, n;
+	int pom = 0, i;
 
-	while (dest[poin])
-		poin++;
+	while (dest[pom])
+		pom++;
 
-	for (n = 0; src[n] != 0; n++)
+	for (i = 0; src[i] != 0; i++)
 	{
-		dest[poin] = src[n];
-		poin += 1;
+		dest[pom] = src[i];
+		pom += 1;
 	}
-	dest[poin] = '\0';
+	dest[pom] = '\0';
 	return (dest);
 }
