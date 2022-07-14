@@ -3,12 +3,12 @@
 #include "main.h"
 
 /**
- * _stract - this is a function stract
+ * _strcat - this is a function stract
  * @dest: first
  * @src: second
- * Return: a character
+ * Return: a string
  */
-char *_stract(char *dest, char *src)
+char *_strcat(char *dest, char *src)
 {
 	int pom = 0, i;
 
