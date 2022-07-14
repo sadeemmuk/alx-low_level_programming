@@ -3,23 +3,23 @@
 #include "main.h"
 
 /**
- * _strcat - this is a function stract
+ * _strcat - this is a function strcat
  * @dest: first
  * @src: second
  * Return: a string
  */
 char *_strcat(char *dest, char *src)
 {
-	int pom = 0, i;
+	int len = 0, i;
 
-	while (dest[pom])
-		pom++;
+	while (dest[len])
+		len++;
 
 	for (i = 0; src[i] != 0; i++)
 	{
-		dest[pom] = src[i];
-		pom += 1;
+		dest[len] = src[i];
+		len += 1;
 	}
-	dest[pom] = '\0';
+	dest[len] = '\0';
 	return (dest);
 }
